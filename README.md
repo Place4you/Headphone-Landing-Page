@@ -1,6 +1,13 @@
 # Headphone Landing Page
 
-![Headphone Landing Page](./assets/img/logo.jpg)
+![Headphone Landing Page](./assets/img/thumbnail.jpg)
+
+## Live Demo
+
+Access the live version of the project: [Netlify Link](https://sadiheadphone.netlify.app/)
+
+This project is deployed and hosted on Netlify. Click the link above to explore the live version.
+
 
 ## Overview
 
