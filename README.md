@@ -2,6 +2,13 @@
 
 ![Headphone Landing Page](./assets/img/thumbnail.jpg)
 
+## Live Demo
+
+Access the live version of the project: [Netlify Link](https://sadiheadphone.netlify.app/)
+
+This project is deployed and hosted on Netlify. Click the link above to explore the live version.
+
+
 ## Overview
 
 Welcome to the Headphone Landing Page project! This repository contains a complete responsive headphone landing page built using HTML and SCSS. The landing page showcases a range of headphones with an engaging and interactive design, providing visitors with a captivating product presentation.
