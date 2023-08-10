@@ -140,10 +140,11 @@ $mcol:#2A3F59;
     width: 100%;
     @include flexr();
     img{
+        margin-top: 5px;
         padding: 5px;
         position: absolute;
         top: 0;
-        left: 20%;
+        left: 23%;
     }
     }
   
