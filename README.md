@@ -1,6 +1,6 @@
 # Headphone Landing Page
 
-![Headphone Landing Page](./assets/img/logo.jpg)
+![Headphone Landing Page](assets/img/logo.png)
 
 ## Overview
 
