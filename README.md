@@ -1,6 +1,6 @@
 # Headphone Landing Page
 
-![Headphone Landing Page](./assets/img/thumbnail.jpg)
+![Headphone Landing Page](assets/img/thumnail.JPG)
 
 ## Live Demo
 
