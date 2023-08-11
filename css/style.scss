@@ -6,6 +6,7 @@
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: none;
 }
 .body{
     font-family: 'Roboto', sans-serif;
@@ -605,21 +606,27 @@ $mcol:#2A3F59;
         @include flexr;
         overflow: hidden;
         flex-wrap: wrap;
-        column-gap: 25px;
+        column-gap: 15px;
         row-gap: 15px;
         .hc1{
             @include help(rgb(41, 40, 40),#BFD1C9);
-          
+            width: 20%;
             
             }
         .hc2{
             @include help(white, #6C859F);
+            width: 20%;
+
         }
         .hc3{
             @include help(black, #F3EFE9);
+            width: 20%;
+
         }
         .hc4{
             @include help(black, #FFD100);
+            width: 20%;
+
             .newslet 
                 {
                     display: inline-block;

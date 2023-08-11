@@ -6,6 +6,7 @@
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: none;
 }
 
 .body {
@@ -38,10 +39,11 @@
        column-gap: 10px;
 }
 .logo img {
+  margin-top: 5px;
   padding: 5px;
   position: absolute;
   top: 0;
-  left: 20%;
+  left: 23%;
 }
 
 .nav-bar {
@@ -137,7 +139,7 @@
   position: absolute;
   color: white;
   width: 40vw;
-  height: 60vh;
+  height: auto;
   row-gap: 5px !important;
   font-size: 120%;
   position: absolute;
@@ -603,8 +605,8 @@
        column-gap: 10px;
   overflow: hidden;
   flex-wrap: wrap;
-  -moz-column-gap: 25px;
-       column-gap: 25px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
   row-gap: 15px;
 }
 .Help .hpcont .hc1 {
@@ -621,6 +623,7 @@
   background-color: #BFD1C9;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
+  width: 20%;
 }
 .Help .hpcont .hc1 h3 {
   font-weight: bolder;
@@ -672,6 +675,7 @@
   background-color: #6C859F;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
+  width: 20%;
 }
 .Help .hpcont .hc2 h3 {
   font-weight: bolder;
@@ -723,6 +727,7 @@
   background-color: #F3EFE9;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
+  width: 20%;
 }
 .Help .hpcont .hc3 h3 {
   font-weight: bolder;
@@ -774,6 +779,7 @@
   background-color: #FFD100;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
+  width: 20%;
 }
 .Help .hpcont .hc4 h3 {
   font-weight: bolder;
@@ -1022,6 +1028,8 @@
     display: none;
   }
   .lifecont2 .plife .lcontent {
+    height: auto;
+    overflow-y: hidden;
     width: 100%;
     padding: 0 10px;
     text-align: center;
