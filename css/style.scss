@@ -612,22 +612,22 @@ $mcol:#2A3F59;
         row-gap: 15px;
         .hc1{
             @include help(rgb(41, 40, 40),#BFD1C9);
-            width: 25%;
+            width: 21%;
             
             }
         .hc2{
             @include help(white, #6C859F);
-            width: 25%;
+            width: 21%;
 
         }
         .hc3{
             @include help(black, #F3EFE9);
-            width: 25%;
+            width: 21%;
 
         }
         .hc4{
             @include help(black, #FFD100);
-            width: 25%;
+            width: 21%;
 
             .newslet 
                 {
