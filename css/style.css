@@ -267,6 +267,7 @@
   font-weight: bolder;
   font-size: 2.4rem;
   height: auto;
+  overflow: hidden;
 }
 .pcard button {
   margin-top: 10px;
@@ -310,6 +311,7 @@
   vertical-align: middle;
   padding: 5px 10px;
   color: #2A3F59;
+  overflow: hidden;
 }
 .pcard .pinfo .dl i {
   display: inline;

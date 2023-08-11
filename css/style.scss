@@ -334,6 +334,7 @@ $mcol:#2A3F59;
         font-weight: bolder;
         font-size: 2.4rem;
         height: auto;
+        overflow: hidden;
 
     }
     
@@ -359,6 +360,7 @@ $mcol:#2A3F59;
             vertical-align: middle;
             padding: 5px 10px;
             color: #2A3F59;
+            overflow: hidden;
             i{
                 display: inline;
                 padding-right: 10px;
