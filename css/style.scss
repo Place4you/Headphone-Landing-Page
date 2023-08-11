@@ -610,24 +610,22 @@ $mcol:#2A3F59;
         flex-wrap: wrap;
         column-gap: 15px;
         row-gap: 15px;
+        box-sizing: border-box;
+
         .hc1{
             @include help(rgb(41, 40, 40),#BFD1C9);
-            width: 21%;
             
             }
         .hc2{
             @include help(white, #6C859F);
-            width: 21%;
 
         }
         .hc3{
             @include help(black, #F3EFE9);
-            width: 21%;
 
         }
         .hc4{
             @include help(black, #FFD100);
-            width: 21%;
 
             .newslet 
                 {
@@ -736,7 +734,9 @@ $mcol:#2A3F59;
     text-align: center;
     font-size: 1em;
     font-weight: 400;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
+    background-color: #F3EFE9;
+
 
 }
 
@@ -850,6 +850,10 @@ $mcol:#2A3F59;
                  }
     .fot-top{
         @include flexc;
+    }
+
+    .Help .hpcont {
+        flex-wrap: wrap;
     }
 }
 @media (max-width: 700px) {

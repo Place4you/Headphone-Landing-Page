@@ -610,6 +610,7 @@
   -moz-column-gap: 15px;
        column-gap: 15px;
   row-gap: 15px;
+  box-sizing: border-box;
 }
 .Help .hpcont .hc1 {
   display: flex;
@@ -625,7 +626,6 @@
   background-color: #BFD1C9;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
-  width: 21%;
 }
 .Help .hpcont .hc1 h3 {
   font-weight: bolder;
@@ -677,7 +677,6 @@
   background-color: #6C859F;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
-  width: 21%;
 }
 .Help .hpcont .hc2 h3 {
   font-weight: bolder;
@@ -729,7 +728,6 @@
   background-color: #F3EFE9;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
-  width: 21%;
 }
 .Help .hpcont .hc3 h3 {
   font-weight: bolder;
@@ -781,7 +779,6 @@
   background-color: #FFD100;
   border-radius: 20px;
   transition: transform 0.3s ease-in-out;
-  width: 21%;
 }
 .Help .hpcont .hc4 h3 {
   font-weight: bolder;
@@ -937,7 +934,8 @@
   text-align: center;
   font-size: 1em;
   font-weight: 400;
-  margin-bottom: 25px;
+  padding-bottom: 25px;
+  background-color: #F3EFE9;
 }
 
 @media (max-width: 750px) {
@@ -1047,6 +1045,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .Help .hpcont {
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 700px) {
